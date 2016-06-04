@@ -8,13 +8,13 @@ li {
 
 body {
 	background-image: url("../images/background.jpg");
-	background-color: #0099cc;
+	background-repeat: no-repeat;
 }
 
 #name_div {
 }
 
 #name {
-	color: http://www.w3schools.com/colors/colors_picker.asp;
+	color: 
 	font-size: 4em;
 }
