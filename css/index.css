@@ -18,3 +18,7 @@ body {
 	color:  #595959;
 	font-size: 4em;
 }
+
+.image_circle {
+	border-radius: 50%;
+}
