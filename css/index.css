@@ -15,10 +15,17 @@ body {
 }
 
 #name {
-	color:  #595959;
+	color: #FFF;
 	font-size: 4em;
 }
 
 .image_circle {
 	border-radius: 50%;
+	width: 15em;
+}
+
+.menu_item {
+	font-size: 2em;
+	color: #FFF;
+	text-align: center;
 }
