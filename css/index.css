@@ -8,7 +8,7 @@ li {
 
 body {
 	background-image: url("../images/background.jpg");
-	background-repeat: no-repeat;
+	background-repeat: cover;
 }
 
 #name_div {
@@ -29,3 +29,11 @@ body {
 	color: #FFF;
 	text-align: center;
 }
+
+hr {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+
