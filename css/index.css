@@ -22,12 +22,22 @@ body {
 .image_circle {
 	border-radius: 50%;
 	width: 15em;
+	border: solid 10px white;
+	border-style: double; 
 }
 
 .menu_item {
 	font-size: 2em;
 	color: #FFF;
 	text-align: center;
+}
+
+a {
+	color: #FFF;
+}
+
+a:hover {
+	background-color: #FFF
 }
 
 hr {
