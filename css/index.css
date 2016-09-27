@@ -30,6 +30,11 @@ body {
 	font-size: 2em;
 	color: #FFF;
 	text-align: center;
+	height: 200px;
+	width: 200px;
+	border: white 2px solid;
+	border-radius: 50%;
+	margin-top: 20px;
 }
 
 a {
@@ -43,6 +48,27 @@ a:hover {
 hr {
 	margin-top: 5px;
 	margin-bottom: 5px;
+}
+
+.dropdown_item {
+	display: none;
+	text-align: center;
+	color: black;
+	font-size: 1em;
+	background-color: white;
+}
+
+resume_dropdown {
+	display: none;
+}
+github_dropdown {
+	display: none;
+}
+ios_dropdown {
+	display: none;
+}
+about_dropdown {
+	display: none;
 }
 
 
