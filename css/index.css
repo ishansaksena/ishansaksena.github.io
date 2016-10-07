@@ -53,6 +53,7 @@ html, body, .container {
 }
 
 #contact {
+    
 	background-image: url("../images/background1.jpg");
 	background-repeat: no-repeat;
 }
@@ -100,4 +101,8 @@ li {
 
 #nontcourses {
     background: #491d1d;
+}
+
+#contactDetails {
+    margin-top: 60px;
 }
