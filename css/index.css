@@ -7,16 +7,31 @@ li {
 }
 
 body {
-	background-image: url("../images/background.jpg");
-	background-repeat: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    text-align: center;
 }
 
 #name_div {
 }
 
-#name {
+.intro {
+    margin-top: 10px;
+}
+
+h1 {
 	color: #FFF;
 	font-size: 4em;
+    text-align: center;
+    margin: 30px;
+}
+
+p {
+    color: #FFF;
+    font-size: 1.5em;
 }
 
 .image_circle {
@@ -26,50 +41,63 @@ body {
 	border-style: double; 
 }
 
-.menu_item {
-	font-size: 2em;
-	color: #FFF;
-	text-align: center;
-	height: 200px;
-	width: 200px;
-	border: white 2px solid;
-	border-radius: 50%;
-	margin-top: 20px;
+html, body, .container {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 920px;
 }
 
-a {
-	color: #FFF;
+#intro {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
 }
 
-a:hover {
-	background-color: #FFF
+#contact {
+	background-image: url("../images/background1.jpg");
+	background-repeat: no-repeat;
 }
 
-hr {
-	margin-top: 5px;
-	margin-bottom: 5px;
+#about {
+    background: #222649;
 }
 
-.dropdown_item {
-	display: none;
-	text-align: center;
-	color: black;
-	font-size: 1em;
-	background-color: white;
+#courses {
+    background: #1d1f23;
 }
 
-resume_dropdown {
-	display: none;
-}
-github_dropdown {
-	display: none;
-}
-ios_dropdown {
-	display: none;
-}
-about_dropdown {
-	display: none;
+#logos {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 120px;
+    display: block
 }
 
+.logo {
+    width: 124px;
+}
 
+h2 {
+    color: #FFF;
+    margin: 15px;
+}
 
+ul {
+    margin: 30px;
+}
+
+li {
+    color: #FFF;
+    list-style: disc outside;
+    display: block;
+}
+
+.description {
+    color: gray;
+    text-align: left;
+    font-size: 1em;
+}
+
+#nontcourses {
+    background: #491d1d;
+}

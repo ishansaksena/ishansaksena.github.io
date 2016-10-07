@@ -1,38 +1,131 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Ishan Saksena</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
-	<script type="text/javascript" src="js/index.js"></script>
-</head>
-<body>
-	<div class="container">
-		<div id='name_div' class='row text-center'>
-			<h1 id='name' class="col-sm-12">Ishan Saksena</h1>
-		</div>
-		<div class='row text-center'>
-			<img src="images/face.png" class="image_circle">
-		</div>	
-	</div>
-	<div class="container">
-		<div class="row">
-			<ul>
-				<li class="col-sm-2 menu_item resume_menu_item">
-					<a href="https://github.com/ishansaksena/ishansaksena.github.io/raw/master/Resume%20-%20Ishan%20Saksena.pdf">Resume</a>
-				</li>
-				<li class="col-sm-2 menu_item github_menu_item">
-					<a href="https://github.com/ishansaksena">Github</a>
-				</li>
-				<li class="col-sm-2 menu_item ios_menu_item">
-					<a href="#">iOS</a>
-				</li>
-				<li class="col-sm-2 menu_item about_menu_item">
-					<a href="#">About</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-</body>
+    <head>
+        <title>Ishan Saksena</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+
+    <!-- Body -->
+    <body>
+        <!-- Introduction -->
+        <div class="container" id="intro">
+            <div id='name_div' class='row text-center'>
+                <h1 id='name' class="col-sm-12">Ishan Saksena</h1>
+            </div>
+            <div class="row">
+                <div class='row text-center'>
+                    <img src="images/face.png" class="image_circle">
+                </div>
+
+                <!-- Logos -->
+                <!--<div id="logos">
+<img src="images/facebook.png" class="image-circle logo">
+<img src="images/github.ico" class="image-circle logo">
+<img src="images/R.png" class="image-circle logo">
+<img src="images/linkedin.png" class="image-circle logo">
+</div>-->
+            </div>
+        </div>
+
+        <!-- About Me -->
+        <div class="container" id="about">
+            <div class="row">
+                <h1>About me</h1>
+                <p>I'm a junior pursuing a B.S. in Informatics
+                    <br> with a specialization in Data Science 
+                    <br> at the University of Washington, Seattle.
+                    <br> <br>
+                    I'm striving to be a software engineer and have taken a lot of technical coursework.
+                    <br> I've also worked on a variety of projects. 
+
+                </p>
+            </div>
+        </div>
+
+        <!-- Course work -->
+        <div class="container" id="courses">
+            <div class="row">
+                <h1>Technical Course Work</h1>
+                <ul>
+                    <li>Introduction to programming
+                        <p class='description'>
+                        Basic programming-in-the-small abilities and concepts including procedural programming (methods, parameters, return, values), basic control structures (sequence, if/else, for loop, while loop), file processing, arrays, and an introduction to defining objects. Intended for students without prior programming experience.
+                        </p>
+                    </li>
+                    <li>Introduction to data structures with the honors seminar
+                        <p class='description'>
+                        Concepts of data abstraction and encapsulation including stacks, queues, linked lists, binary trees, recursion, instruction to complexity and use of predefined collection classes.
+                        </p>
+                    </li>
+                    <li>Data structures and algorithms
+                        <p class='description'>
+                        Fundamental algorithms and data structures for implementation. Techniques for solving problems by programming. Linked lists, stacks, queues, directed graphs. Trees: representations, traversals. Searching (hashing, binary search trees, multiway trees). Garbage collection, memory management. Internal and external sorting.
+                        </p>
+                    </li>
+                    <li>iOS Development
+                        <p class='description'>Native iOS app development in Swift</p>
+                    </li>
+                    <li>Databases
+                        <p class='description'>
+                        Introduction to relational database management systems, focused on relational theory and the application of conceptual, logical, and physical database modeling. Key topics include the relational model, SQL, entity-relationship modeling, three-tier architectures, implementation of database applications, and related topics in information systems.
+                        </p>
+                    </li>
+                    <li>Web development
+                        <p class='description'>
+                        Covers languages, tools, and techniques for developing interactive and dynamic web pages. Topics include page styling, design, and layout; client and server side scripting; web security; and interacting with data sources such as databases.
+                        </p>
+                    </li>
+                    <li>Server side development
+                        <p class='description'>
+                        Introduces server-side web development programming, services, tools, protocols, best practices and techniques for implementing data-driven and scalable web applications. Connects topics from human-centered design, information architecture, databases, data analytics and security to build a solution.
+                        </p>
+                    </li>
+                    <li>Programming languages and Software implementation
+                        <p class='description'>
+                        Basic concepts and implementation strategies for modern functional and object-oriented programming languages such as Scheme and Java.
+                        </p>
+                    </li>
+                    <li>Statistics with R
+                        <p class='description'>
+                        Elementary concepts of probability and sampling; binomial and normal distributions. Basic concepts of hypothesis testing, estimation, and confidence intervals; t-tests and chi-square tests. Linear regression theory and the analysis of variance.
+                        </p>
+                    </li>
+                    <li>Computational Finance
+                        <p class='description'>
+                        Covers probability models, data analysis, quantitative, and statistical methods using applications in finance, and introduction to and use of the R programming system for data analysis and statistical modeling. </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Course work -->
+        <div class="container" id="nontcourses">
+            <div class="row">
+                <h1>Non Technical Course Work</h1>
+                <ul>
+                    <li>Design Thinking
+                        <p class='description'></p>
+                    </li>
+                    <li>Project management
+                        <p class='description'></p>
+                    </li>
+                    <li>Research methodss
+                        <p class='description'></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Contact Me-->
+        <div class="container" id="contact">
+            <div class="row">
+                <h1>Contact Me!</h1>
+            </div>
+        </div>
+    </body>
 </html>
+
+<!-- -->
