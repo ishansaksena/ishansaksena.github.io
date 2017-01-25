@@ -9,6 +9,7 @@ li {
 body {
     margin: 0px;
     padding: 0px;
+    width: 100%;
 }
 
 p {
@@ -16,6 +17,7 @@ p {
 }
 
 #name_div {
+    margin-top: 60px;
 }
 
 .intro {
@@ -26,7 +28,8 @@ h1 {
 	color: #FFF;
 	font-size: 4em;
     text-align: center;
-    margin: 30px;
+    margin-top: 80px;
+    padding: 0px;
 }
 
 p {
@@ -39,11 +42,12 @@ p {
 	width: 15em;
 	border: solid 10px white;
 	border-style: double; 
+    margin: 0px;
 }
 
 html, body, .container {
     width: 100%;
-    margin: 0 auto;
+    margin: 0px;
     min-height: 920px;
 }
 
@@ -61,6 +65,41 @@ html, body, .container {
 
 #about {
     background: #222649;
+}
+
+#experience {
+    background: #ff6a00; 
+}
+
+/*Company logos for experience*/ 
+#experience img {
+    float: left;
+    clear: left;
+}
+
+p#experience {
+    padding: 30px;
+    text-align: left;
+}
+
+.experienceDescription {
+    margin-left: 20px;
+    text-align: left;
+    float: left;
+    margin: top
+}
+
+/*Description of actual project*/
+.experienceDescription p {
+    margin-left: 15px;
+    color: lightgray;
+    font-size: 1.2em;
+}
+
+/*div around each row*/
+.experienceRecord {
+    margin: 20px;
+    display: inline-block;
 }
 
 #courses {
@@ -87,6 +126,8 @@ html, body, .container {
 h2 {
     color: #FFF;
     margin: 15px;
+    display: inline;
+    vertical-align: top;
 }
 
 ul {
@@ -111,4 +152,11 @@ li {
 
 #contactDetails {
     margin-top: 60px;
+}
+
+.companylogo {
+    width: 124px;
+    height: auto;
+    display: inline;
+    margin-left: 30px;
 }
