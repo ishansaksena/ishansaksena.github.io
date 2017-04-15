@@ -1,6 +1,4 @@
-html {
-	font-family: Helvetica;
-}
+html {}
 
 li {
 	display: inline;
@@ -9,7 +7,13 @@ li {
 body {
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 600px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+}
+
+.container{
+    align-content: center;
 }
 
 p {
@@ -84,9 +88,10 @@ p#experience {
 
 .experienceDescription {
     margin-left: 20px;
-    text-align: left;
+        
     float: left;
-    margin: top
+    margin: top;
+    max-width: 600px;
 }
 
 /*Description of actual project*/
@@ -144,6 +149,7 @@ li {
     color: gray;
     text-align: left;
     font-size: 1em;
+    max-width: 600px;
 }
 
 #nontcourses {
